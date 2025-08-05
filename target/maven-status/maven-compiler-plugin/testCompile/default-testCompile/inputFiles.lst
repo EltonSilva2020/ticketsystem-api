@@ -1,0 +1,15 @@
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/repository/UserRepositoryTest.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/TicketSystemApiApplicationTests.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/service/impl/DepartmentServiceImplIT.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/model/TestModel.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/repository/RoleRepositoryTest.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/service/impl/UserServiceImplIT.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/controller/UserCrontollerIT.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/service/impl/CategoryServiceImplIT.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/service/impl/TicketServiceImplIT.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/controller/DepartmentCrontollerIT.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/controller/CategoryCrontollerIT.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/controller/TicketCrontollerIT.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/repository/TicketRepositoryTest.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/repository/DepartmentRepositoryTest.java
+/Users/elton/IntelljProject/ccb-ticket-system/src/test/java/be/congregationchretienne/ticketsystem/api/model/AbstractModelTest.java

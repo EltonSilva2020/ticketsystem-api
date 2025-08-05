@@ -1,0 +1,15 @@
+be/congregationchretienne/ticketsystem/api/model/TestModel.class
+be/congregationchretienne/ticketsystem/api/controller/DepartmentCrontollerIT.class
+be/congregationchretienne/ticketsystem/api/controller/userCrontollerIT.class
+be/congregationchretienne/ticketsystem/api/service/impl/DepartmentServiceImplIT.class
+be/congregationchretienne/ticketsystem/api/service/impl/UserServiceImplIT.class
+be/congregationchretienne/ticketsystem/api/repository/TicketRepositoryTest.class
+be/congregationchretienne/ticketsystem/api/TicketSystemApiApplicationTests.class
+be/congregationchretienne/ticketsystem/api/controller/TicketCrontollerIT.class
+be/congregationchretienne/ticketsystem/api/service/impl/TicketServiceImplIT.class
+be/congregationchretienne/ticketsystem/api/controller/CategoryCrontollerIT.class
+be/congregationchretienne/ticketsystem/api/repository/RoleRepositoryTest.class
+be/congregationchretienne/ticketsystem/api/service/impl/CategoryServiceImplIT.class
+be/congregationchretienne/ticketsystem/api/repository/DepartmentRepositoryTest.class
+be/congregationchretienne/ticketsystem/api/model/AbstractModelTest.class
+be/congregationchretienne/ticketsystem/api/repository/UserRepositoryTest.class

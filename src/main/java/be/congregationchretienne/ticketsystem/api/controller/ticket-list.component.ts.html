@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>ticket-list.component.ts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #7a7e85;}
+.s5 { color: #56a8f5;}
+.s6 { color: #c77dbb; font-style: italic;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+ticket-list.component.ts</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s2">{ Component } </span><span class="s0">from </span><span class="s2">'</span><span class="s3">@angular/core</span><span class="s2">';</span>
+<span class="s0">import </span><span class="s2">{ NgFor } </span><span class="s0">from </span><span class="s2">'</span><span class="s3">@angular/common</span><span class="s2">';</span>
+<span class="s0">import </span><span class="s2">{ Router, RouterModule } </span><span class="s0">from </span><span class="s2">'</span><span class="s3">@angular/router</span><span class="s2">'; // </span><span class="s4">← importante!</span>
+
+<span class="s2">@</span><span class="s5">Component</span><span class="s1">(</span><span class="s2">{</span>
+  <span class="s1">selector</span><span class="s2">: '</span><span class="s3">app-ticket-list</span><span class="s2">',</span>
+  <span class="s1">standalone</span><span class="s2">: </span><span class="s6">true</span><span class="s2">,</span>
+  <span class="s1">imports</span><span class="s2">: </span><span class="s1">[</span><span class="s2">NgFor, RouterModule</span><span class="s1">]</span><span class="s2">, // </span><span class="s4">← agora sim!</span>
+  <span class="s1">template</span><span class="s2">: `</span>
+    <span class="s3">&lt;h2&gt;Tickets&lt;/h2&gt; 
+    &lt;ul&gt; 
+      &lt;li *ngFor=&quot;let ticket of tickets&quot;&gt;{{ ticket.title }}&lt;/li&gt; 
+    &lt;/ul&gt; 
+    &lt;button (click)=&quot;irParaUsuarios()&quot;&gt;Ir para Usuários&lt;/button&gt; 
+  </span><span class="s2">`</span>
+<span class="s2">}</span><span class="s1">)</span>
+<span class="s0">export class </span><span class="s2">TicketListComponent {</span>
+  <span class="s2">tickets = </span><span class="s1">[</span>
+    <span class="s2">{ </span><span class="s1">title</span><span class="s2">: '</span><span class="s3">Erro no login</span><span class="s2">' },</span>
+    <span class="s2">{ </span><span class="s1">title</span><span class="s2">: '</span><span class="s3">Página de perfil não carrega</span><span class="s2">' },</span>
+    <span class="s2">{ </span><span class="s1">title</span><span class="s2">: '</span><span class="s3">Solicitação de nova funcionalidade</span><span class="s2">' }</span>
+  <span class="s1">]</span><span class="s2">;</span>
+
+  <span class="s0">constructor</span><span class="s2">(</span><span class="s0">private </span><span class="s2">router: Router) {}</span>
+
+  <span class="s5">irParaUsuarios</span><span class="s2">() {</span>
+     <span class="s2">console.</span><span class="s5">log</span><span class="s1">(</span><span class="s2">'</span><span class="s3">Botão clicado!</span><span class="s2">'</span><span class="s1">)</span><span class="s2">;</span>
+      <span class="s2">this.router.</span><span class="s5">navigate</span><span class="s1">([</span><span class="s2">'</span><span class="s3">/users</span><span class="s2">'</span><span class="s1">])</span><span class="s2">;</span>
+  <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>

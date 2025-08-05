@@ -1,0 +1,21 @@
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Título</th>
+    <th>Status</th>
+    <th>Prioridade</th>
+    <th>Criado em</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let ticket of tickets">
+    <td>{{ ticket.id }}</td>
+    <td>{{ ticket.title }}</td>
+    <td>{{ ticket.status }}</td>
+    <td>{{ ticket.priority }}</td>
+    <td>{{ ticket.createdAt | date: 'short' }}</td>
+  </tr>
+  </tbody>
+</table>
+
