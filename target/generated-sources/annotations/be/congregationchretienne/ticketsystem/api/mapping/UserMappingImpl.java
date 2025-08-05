@@ -1,7 +1,9 @@
 package be.congregationchretienne.ticketsystem.api.mapping;
 
 import be.congregationchretienne.ticketsystem.api.dto.UserDTO;
-import be.congregationchretienne.ticketsystem.api.model.User;
+import be.ticketsystem.api.mapping.CycleAvoidingMappingContext;
+import be.ticketsystem.api.mapping.UserMapping;
+import be.ticketsystem.api.model.User;
 import java.util.UUID;
 import javax.annotation.processing.Generated;
 import org.springframework.stereotype.Component;

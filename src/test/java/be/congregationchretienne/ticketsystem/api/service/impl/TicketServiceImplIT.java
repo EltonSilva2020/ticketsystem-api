@@ -2,10 +2,12 @@ package be.congregationchretienne.ticketsystem.api.service.impl;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import be.congregationchretienne.ticketsystem.api.exception.NotFoundException;
-import be.congregationchretienne.ticketsystem.api.service.TicketService;
+import be.ticketsystem.api.exception.NotFoundException;
+import be.ticketsystem.api.service.TicketService;
 import java.util.UUID;
 import java.util.stream.Stream;
+
+import be.ticketsystem.api.service.impl.TicketServiceImpl;
 import org.flywaydb.core.Flyway;
 import org.flywaydb.test.annotation.FlywayTest;
 import org.flywaydb.test.junit5.annotation.FlywayTestExtension;

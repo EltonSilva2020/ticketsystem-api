@@ -1,11 +1,13 @@
 package be.congregationchretienne.ticketsystem.api.mapping;
 
-import be.congregationchretienne.ticketsystem.api.dto.DepartmentDTO;
+import be.ticketsystem.api.dto.DepartmentDTO;
 import be.congregationchretienne.ticketsystem.api.dto.UserDTO;
-import be.congregationchretienne.ticketsystem.api.model.Category;
-import be.congregationchretienne.ticketsystem.api.model.Department;
-import be.congregationchretienne.ticketsystem.api.model.Ticket;
-import be.congregationchretienne.ticketsystem.api.model.User;
+import be.ticketsystem.api.mapping.CycleAvoidingMappingContext;
+import be.ticketsystem.api.mapping.DepartmentMapping;
+import be.ticketsystem.api.model.Category;
+import be.ticketsystem.api.model.Department;
+import be.ticketsystem.api.model.Ticket;
+import be.ticketsystem.api.model.User;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.UUID;
