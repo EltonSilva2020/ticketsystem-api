@@ -21,8 +21,8 @@
         <mysql.driver.version>8.0.30</mysql.driver.version>
         <database.driver>com.mysql.jdbc.Driver</database.driver>
         <database.url>jdbc:mysql://localhost:3306/ticketsystemapi?autoreconnect=true</database.url>
-        <database.username>root</database.username>
-        <database.password>domiciano</database.password>
+        <database.username></database.username>
+        <database.password></database.password>
     </properties>
 
     <dependencies>
