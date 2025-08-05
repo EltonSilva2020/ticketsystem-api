@@ -59,3 +59,14 @@ cd ticketsystem-api
 
 ✅ Backend: Complete
 🛠️ Frontend: In progress
+
+----------------------------------
+
+📜 License
+
+This project is licensed under the MIT License.
+
+👤 Author
+
+Elton Silva
+GitHub: @EltonSilva2020
