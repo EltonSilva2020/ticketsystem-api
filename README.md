@@ -46,3 +46,11 @@ The API is documented using **Swagger**. Once the backend is running, access:htt
 ```bash
 cd ticketsystem-api
 ./mvnw spring-boot:run
+----
+🎯 Features
+
+•  Ticket CRUD operations
+•  User and department management
+•  DTO mapping with MapStruct
+•  Swagger API documentation
+•  Ready for frontend integration
